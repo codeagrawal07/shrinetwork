@@ -1,1 +1,82 @@
-
+{
+  "site": {
+    "company_name": "SHRI NETWORK",
+    "tagline": "Thoughtful products. A connected community.",
+    "primary_color": "#155b35",
+    "secondary_color": "#267a45",
+    "accent_color": "#a8d5a2",
+    "background_color": "#f5faf5",
+    "text_color": "#203329",
+    "logo_text": "SHRI NETWORK"
+  },
+  "plans": [
+    {
+      "id": "basic-25",
+      "name": "Basic Plan",
+      "price": 25,
+      "currency": "INR",
+      "subtitle": "Affordable entry plan",
+      "description": "An entry-level product plan. Update the product pack and details to match your approved offer.",
+      "product_name": "Supriya Bamboo Toothbrush",
+      "product_pack": "Product pack details to be confirmed",
+      "matrix_label": "3 × 3 Matrix Plan",
+      "image": "assets/images/toothbrush.svg",
+      "card_color": "#eaf5e9",
+      "text_color": "#155b35",
+      "button_color": "#267a45",
+      "featured": false,
+      "active": true
+    },
+    {
+      "id": "silver-50",
+      "name": "Silver Plan",
+      "price": 50,
+      "currency": "INR",
+      "subtitle": "Product pack plan",
+      "description": "The supplied ₹50 reference describes a pack of two Supriya bamboo brushes.",
+      "product_name": "Supriya Bamboo Wood Toothbrush",
+      "product_pack": "2 Supriya Bamboo Brushes",
+      "matrix_label": "3 × 3 Matrix Plan",
+      "image": "assets/images/toothbrush.svg",
+      "card_color": "#edf6eb",
+      "text_color": "#155b35",
+      "button_color": "#267a45",
+      "featured": true,
+      "active": true
+    },
+    {
+      "id": "gold-100",
+      "name": "Gold Plan",
+      "price": 100,
+      "currency": "INR",
+      "subtitle": "Extended product plan",
+      "description": "Add the approved product description, pack quantity and plan terms in config/plans.json.",
+      "product_name": "Product details to be updated",
+      "product_pack": "Update pack details in plans.json",
+      "matrix_label": "3 × 3 Matrix Plan",
+      "image": "assets/images/toothbrush.svg",
+      "card_color": "#f1f6e8",
+      "text_color": "#294d2e",
+      "button_color": "#267a45",
+      "featured": false,
+      "active": true
+    },
+    {
+      "id": "premium-200",
+      "name": "Premium Plan",
+      "price": 200,
+      "currency": "INR",
+      "subtitle": "Premium product plan",
+      "description": "Add the approved product description, pack quantity and plan terms in config/plans.json.",
+      "product_name": "Product details to be updated",
+      "product_pack": "Update pack details in plans.json",
+      "matrix_label": "3 × 3 Matrix Plan",
+      "image": "assets/images/toothbrush.svg",
+      "card_color": "#e8f2e6",
+      "text_color": "#155b35",
+      "button_color": "#155b35",
+      "featured": false,
+      "active": true
+    }
+  ]
+}
